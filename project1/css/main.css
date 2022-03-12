@@ -1,14 +1,85 @@
 /* font-family: 'Metrophobic', sans-serif; */
 
-* {
-  margin: 0;
-  padding: 0;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 body {
   background-color: #fff;
-  font-family: "Metrophobic", sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 
+img {
+  display: block;
+}
+/*         HERO             */
 .header {
+  border-bottom: 1px solid #e5e9f2;
+  height: 73px;
+  display: flex;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 40px;
+}
+
+.nav {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #18191f;
+  margin-right: 32px;
+  align-items: center;
+}
+
+.nav a:last-child {
+  margin-right: 0px;
+}
+
+.nav a:hover {
+  color: #8c30f5;
+}
+
+.appstore {
+  margin: 0 auto;
+  display: flex;
+}
+
+.appstore-item {
+  margin-left: 12px;
+}
+
+.appstore-item:first-child {
+  margin-left: 0px;
+}
+
+/* Organizer */
+
+.main {
+}
+
+.main-container {
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.main-content {
+}
+
+.main-image {
 }
