@@ -1,9 +1,64 @@
+/*font-family: 'Bebas Neue', cursive;
+font-family: 'Josefin Slab', serif;*/
+
 body {
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #fff;
+  font-family: "Manrope", sans-serif;
 }
 
-.parallax {
-  background: url(././img/yung_lean.jpg);
+a {
+  font-family: "Josefin Slab", serif;
+  color: #000;
+  text-decoration: none;
+}
+
+/*  HERO   */
+
+.header {
+  width: 1100px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.header-wrapper {
+  display: flex;
+  margin-top: 20px;
+}
+
+.logo {
+  margin-right: 500px;
+}
+
+.nav {
+  display: Flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.nav a {
+  margin-left: 20px;
+  font-size: 15px;
+  line-height: 12px;
+  color: #000;
+  text-decoration: none;
+}
+
+.nav a:first-child {
+  border-bottom: 1px solid #000;
+}
+
+.nav a:hover {
+  border-bottom: 1px solid #000;
+  color: #fff;
+  transition: 0.8s;
+}
+
+/* ORGANIZER */
+
+.column-two {
+  background: url(./img/bg/bg.jpg);
 }
