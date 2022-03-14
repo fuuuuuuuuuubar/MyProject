@@ -1,0 +1,9 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parallax {
+  background: url(././img/yung_lean.jpg);
+}
