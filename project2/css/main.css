@@ -124,6 +124,50 @@ a {
   margin: 0 auto;
 }
 
-.edik {
-  height: 1000px;
+.wrapper-earl-column {
+  display: flex;
+}
+
+.earl-column-one {
+  width: 550px;
+  height: 330px;
+}
+
+.earl-column-one h1 {
+  transform: rotate(-90deg);
+  transform-origin: left top 0;
+  position: absolute;
+  right: -225px;
+  bottom: 0;
+  font-size: 102.5px;
+  font-family: "Josefin Slab", serif;
+}
+
+.earl-column-two {
+  width: 550px;
+  height: 330px;
+}
+
+.wrapper-album-earl {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-song-earl {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-song-earl a {
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.nav-song-earl a:hover {
+  border-bottom: 1px solid #000;
+  opacity: 0;
+  transition: all 2s ease 0s;
+  transform: translate(120%, 0px);
 }
