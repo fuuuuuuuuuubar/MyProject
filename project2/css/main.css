@@ -1,0 +1,175 @@
+/*font-family: 'Bebas Neue', cursive;
+font-family: 'Josefin Slab', serif;*/
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fff;
+  font-family: "Manrope", sans-serif;
+}
+
+a {
+  font-family: "Josefin Slab", serif;
+  color: #000;
+  text-decoration: none;
+}
+
+/*  HERO   */
+
+.header {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.header-wrapper {
+  display: flex;
+  margin-top: 20px;
+}
+
+.logo {
+  margin-right: 500px;
+}
+
+.nav {
+  display: Flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.nav a {
+  margin-left: 20px;
+  font-size: 15px;
+  line-height: 12px;
+  color: #000;
+  text-decoration: none;
+}
+
+.nav a:first-child {
+  border-bottom: 1px solid #000;
+}
+
+.nav a:hover {
+  border-bottom: 1px solid #000;
+  color: #fff;
+  transition: 0.8s;
+}
+
+/* ORGANIZER */
+
+.header-menu {
+  width: 1100px;
+  height: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 75px;
+}
+
+.column-one {
+  width: 250px;
+  height: 600px;
+  position: relative;
+}
+
+.column-one h1 {
+  font-family: "Josefin Slab", serif;
+  font-size: 100px;
+  line-height: 78px;
+  margin-top: 200px;
+  margin-bottom: 110px;
+}
+
+.column-anim {
+  transform: translate(0px, 120%);
+  opacity: 0;
+  transition: all 1s ease 0s;
+}
+
+.column-anim._active {
+  transform: translate(0px, 0px);
+  opacity: 1;
+}
+
+.column-one p {
+  font-size: 40px;
+  line-height: 10px;
+}
+
+.button-hero p {
+  font-size: 20px;
+  border: 2px solid #000;
+  width: 100px;
+  text-align: center;
+  line-height: 18px;
+  font-family: "Manrope", sans-serif;
+}
+
+.button-hero p:hover {
+  background-color: #000;
+  color: #fff;
+  transition: 0.8s;
+  line-height: 28px;
+}
+
+.column-two {
+  width: 850px;
+  height: 600px;
+  background: url(earl.jpg);
+  background-attachment: fixed;
+}
+
+.main {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.wrapper-earl-column {
+  display: flex;
+}
+
+.earl-column-one {
+  width: 550px;
+  height: 330px;
+}
+
+.earl-column-one h1 {
+  transform: rotate(-90deg);
+  transform-origin: left top 0;
+  position: absolute;
+  right: -225px;
+  bottom: 0;
+  font-size: 102.5px;
+  font-family: "Josefin Slab", serif;
+}
+
+.earl-column-two {
+  width: 550px;
+  height: 330px;
+}
+
+.wrapper-album-earl {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-song-earl {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-song-earl a {
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.nav-song-earl a:hover {
+  border-bottom: 1px solid #000;
+  opacity: 0;
+  transition: all 2s ease 0s;
+  transform: translate(120%, 0px);
+}
+
+/* TYLER THE CREATOR */
